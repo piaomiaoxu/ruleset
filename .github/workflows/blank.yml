@@ -20,7 +20,7 @@ jobs:
 
       - name: Move files to publish directory
         run: |
-          mkdir -p publish
+          mkdir -p publish/Ruleset
           cp ACL4SSR/Clash/Providers/Ruleset/*.yaml ./publish/Ruleset/
           cp ACL4SSR/Clash/Providers/*.yaml ./publish/
 
